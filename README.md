@@ -16,8 +16,6 @@ To use OpenCV in an Unreal Engine 4 project:
 
 * Add library dependencies to module or project Build.cs (see MODULENAME.Build.cs)
 
-For an in-depth description of the plugin, please see the [tutorial.](https://wiki.unrealengine.com/Integrating_OpenCV_Into_Unreal_Engine_4)
-
 License
 =======
 
