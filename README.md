@@ -12,8 +12,6 @@ To use OpenCV in an Unreal Engine 4 project:
 
 * Regenerate project files (for visual studios, right click your project (.uasset) file and select 'generate visual studio project files' after deleting your previous visual studios file)
 
-* Add the "OpenCV" public module dependency in project Build.cs (see PROJECTNAME.Build.cs)
-
 * Add library dependencies to module or project Build.cs (see MODULENAME.Build.cs)
 
 License
