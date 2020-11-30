@@ -27,10 +27,9 @@ public class MODULENAME: ModuleRules
             string OpenCVLibPath = Path.Combine(OpenCVPath, "Libraries", "Win64");
 
             PublicIncludePaths.Add(OpenCVIncludePath);
-            PublicLibraryPaths.Add(OpenCVLibPath);
 
             //Add Static Libraries
-            PublicAdditionalLibraries.Add("opencv_world320.lib");
+            PublicAdditionalLibraries.Add(Path.Combine(OpenCVLibPath, "opencv_world320.lib"));
 
             //Add Dynamic Libraries
             PublicDelayLoadDLLs.Add("opencv_world320.dll");
